@@ -1,7 +1,7 @@
 /**
  * e001.c
- * This software copies a string into a buffer, then it prints what it copied to stdout.
- * This is intentionally buggy and poorly commented code.
+ * 
+ *
 */
 
 #include <stdio.h>
@@ -9,18 +9,12 @@
 
 int main(int argc, char **argv)
 {
-	char buf[30]; /* a buffer that holds some characters */
+	int wtf=1;
 
-	if( argc == 2) {
-		printf("%s\n",argv[1]);
-		strcpy(buf,argv[1]);
-	} else {
-		strcpy(buf,"what can possibly go wrong?");
+	if (wtf==2)
+	{
+		printf("tjohej");
 	}
-
-	printf("buf = %s\n",buf);
-
-	printf("bye bye ...");
 
 	return 0;
 }
